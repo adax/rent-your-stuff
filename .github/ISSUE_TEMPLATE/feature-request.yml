@@ -1,4 +1,4 @@
-name: feature-request
+name: Feature Request
 description: Request for a new feature
 title: "[Feature Request]: "
 labels: ["feature","request"]
@@ -18,5 +18,5 @@ body:
         As a ...
         I want to ...
         So that I can ...
-      validations:
-        required: true
+    validations:
+      required: true
