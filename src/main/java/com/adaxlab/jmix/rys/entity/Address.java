@@ -4,10 +4,12 @@ import io.jmix.core.metamodel.annotation.JmixEntity;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
+import javax.validation.constraints.NotBlank;
 
 @JmixEntity(name = "rys_Address")
 @Embeddable
 public class Address {
+    @NotBlank
     @Column(name = "STREET", nullable = false)
     private String street;
 
